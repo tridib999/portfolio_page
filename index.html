@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+  
+
+
+    
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Tridib's Portfolio</div>
+        <div calss="right">
+          <ul>
+           <li><a href="#home">home<a></li>
+           <li><a href="#about">about<a></li>
+           <li><a href="#projects">projects<a></li>
+           <li><a href="#contect">contact<a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi,My name is<span class="purple"> Tridib</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="social">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+          </div>
+          <div class="about">
+            <a href="#">More About Me</a>
+          </div>
+          </div>
+          <div class="rightsection">
+          <img src="tri.jpg" />
+        </div>
+      </section>
+  
+      <section class="secondsection">
+       <div class="img">
+        <img src="tri2.JPG">
+       </div>
+       <div class="about_text">
+        <h2>About<span>Me</span></h2>
+        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque, mollitia distinctio doloremque molestias voluptatibus totam quasi ad dolores a unde temporibus laboriosam cupiditate ducimus ex non maxime! Eligendi, totam.</h4>
+       </div>
+      
+      </section>
+      <section class="thirdsection">
+        <div class="services">
+          <div class="container">
+            <h1 class="title">My <span>Services</span></h1>
+            <div class="service_list">
+              <div >
+                <i class='bx bx-code-alt' style="color: rgb(29, 133, 253);"></i>
+                <h2>Frontend Development</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam odit iusto at dolore obcaecati corrupti asperiores libero iure consequuntur quos, ipsam fuga? Possimus ullam quia porro iure tempore maxime totam.</p>
+               </div>
+
+               <div >
+                <i class='bx bx-crop' style="color: rgb(29, 133, 253);" ></i>
+                <h2>Video/Photo Editing</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam odit iusto at dolore obcaecati corrupti asperiores libero iure consequuntur quos, ipsam fuga? Possimus ullam quia porro iure tempore maxime totam.</p>
+               </div>
+
+               <div >
+                <i class='bx bx-laptop' style="color: rgb(29, 133, 253);" ></i>
+                <h2>Freelance Work</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam odit iusto at dolore obcaecati corrupti asperiores libero iure consequuntur quos, ipsam fuga? Possimus ullam quia porro iure tempore maxime totam.</p>
+               </div>
+               
+             </div>
+          </div>  
+        </div>    
+      </section>
+      <section class="fourthsection">
+        <div class="contact_text">
+          <h2>Contect<span>Me</span></h2>
+        </div>
+        <div class="contact_list">
+          <li><i class='bx bxl-gmail' ></i>contact@gmail.com</li>
+          <li><i class='bx bxs-phone' ></i>0123456789</li>
+        </div>
+        <div class="contact_icon">
+          <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <div class="contact_from">
+           <input type="" placeholder="Enter your Name" required>
+            <input type="email" placeholder="Enter Your Email" required>
+            <textarea name="" id="" cols="40" rows="10" placeholder="Your Message" required></textarea>
+            <button id="subbtn">Submit</button>
+          
+        </div>
+      </section>
+     <footer class="footer">
+      <div class="copyright">
+        Copyright <i class='bx bxs-copyright'></i> 2023 by My Portfolio | All Rights Reserved. 
+      </div>
+      <button class="arrow"><i class='bx bxs-up-arrow-circle' ></i></button>
+     </footer>
+
+
+
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Devoloper', 'Video Editor.'],
+      typeSpeed: 50,
+    });
+  </script>
+  </body>
+</html>
